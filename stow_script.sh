@@ -1,9 +1,4 @@
-if [ -d "/usr/bin/zsh" ]
-then
-    #!/usr/bin/zsh"
-else
-    #!/bin/zsh
-fi
+#!/bin/zsh
 
 stow --adopt -t ~/.oh-my-zsh/custom oh-my-zsh
 stow --adopt vim
