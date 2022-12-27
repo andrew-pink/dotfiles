@@ -1,0 +1,10 @@
+b5b0927 HEAD@{0}: checkout: moving from 9e2191c016196df473a7ecce1787401ad187cb2b to main
+9e2191c HEAD@{1}: commit (amend): add harpoon
+b5b0927 HEAD@{2}: checkout: moving from main to origin
+b5b0927 HEAD@{3}: commit (amend): add harpoon
+50d2062 HEAD@{4}: commit (amend): add harpoon
+54828e8 HEAD@{5}: commit (amend): add harpoon
+874d76d HEAD@{6}: commit: add harpoon
+4bc3349 HEAD@{7}: commit: add nvim, update stow script
+c765dca HEAD@{8}: commit: fix script, config loading issues
+aa611cc HEAD@{9}: clone: from https://github.com/andrew-pink/dotfiles
