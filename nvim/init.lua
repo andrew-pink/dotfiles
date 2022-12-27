@@ -3,4 +3,4 @@ vim.g.loaded_netrwPlugin = 1
 require("remap")
 require("plugins")
 require("set")
-require("themes.theme")
+require("theme")
