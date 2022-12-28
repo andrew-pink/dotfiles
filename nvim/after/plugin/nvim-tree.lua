@@ -5,6 +5,11 @@ require("nvim-tree").setup({
         adaptive_size = true,
         relativenumber = true,
 
+        git = {
+            enable = true,
+            ignore = false,
+        },
+
         mappings = {
           list = {
             { key = "h", action = "dir_up" },

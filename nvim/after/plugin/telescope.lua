@@ -7,6 +7,9 @@ vim.keymap.set('n', '<leader>sg', builtin.live_grep, { desc = '[S]earch by [G]re
 vim.keymap.set('n', '<leader>sd', builtin.diagnostics, { desc = '[S]earch [D]iagnostics' })
 vim.keymap.set('n', '<leader>of', builtin.oldfiles, { desc = '[O]ld [F]iles' })
 vim.keymap.set('n', '<leader><space>', builtin.buffers, { desc = '[ ] Find existing buffers' })
+vim.keymap.set('n', '<leader>km', function()
+    vim.cmd('Telescope keymaps')
+end, { desc = 'Display [k]ey[m]aps' })
 vim.keymap.set('n', '<leader>/', function()
   -- You can pass additional configuration to telescope to change theme, layout, etc.
   builtin.current_buffer_fuzzy_find(require('telescope.themes').get_dropdown {
