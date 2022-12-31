@@ -112,13 +112,13 @@ dashboard.section.header.opts = {
 }
 
 dashboard.section.buttons.val = {
-    dashboard.button( "e",  "📄 Create File      " , ":ene <BAR><CR>"),
+    dashboard.button( "c",  "📄 Create File      " , ":ene <BAR><CR>"),
     dashboard.button( "pp", "🗃 Folder View      " , "<leader>pp"),
     dashboard.button( "sf", "🔎 Search for File  " , "<leader>sf"),
-    dashboard.button( "sg", "🧲 Search by grep   ", "<leader>sg"),
+    dashboard.button( "sg", "🧲 Search by grep   " , "<leader>sg"),
 }
 
-local shortcuts = { "e", "pp", "sf", "sg", }
+local shortcuts = { "c", "pp", "sf", "sg", }
 
 for i=1,#(dashboard.section.buttons.val) do
     dashboard.section.buttons.val[i].opts = {
