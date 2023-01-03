@@ -7,3 +7,4 @@ export PATH=${DEVKITPRO}/tools/bin:$PATH
 
 alias up='cd ..'
 alias home='cd ~'
+alias ta='tmux attach'

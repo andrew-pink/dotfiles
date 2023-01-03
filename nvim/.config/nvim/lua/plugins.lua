@@ -43,6 +43,7 @@ return require('packer').startup(function(use)
     use ( 'tpope/vim-fugitive' )
     use ( 'ThePrimeagen/harpoon' )
     use ( 'christoomey/vim-tmux-navigator' )
+    use ( 'mfussenegger/nvim-dap' )
 
     -- lsp-zero
     use {

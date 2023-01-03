@@ -113,7 +113,7 @@ dashboard.section.header.opts = {
 
 dashboard.section.buttons.val = {
     dashboard.button( "c",  "📄 Create File      " , ":ene <BAR><CR>"),
-    dashboard.button( "pp", "🗃 Folder View      " , "<leader>pp"),
+    dashboard.button( "pp", "📂 Folder View      " , "<leader>pp"),
     dashboard.button( "sf", "🔎 Search for File  " , "<leader>sf"),
     dashboard.button( "sg", "🧲 Search by grep   " , "<leader>sg"),
 }
